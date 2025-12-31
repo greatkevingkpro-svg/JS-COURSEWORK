@@ -16,9 +16,9 @@ console.log(calculateProcurementCost(1000, 500));
 
 // Step 2. Arrow Function: validateBuyerName
 const validateBuyerName = (buyerName) => {
-// work on this later
+  return buyerName !== "" && buyerName.length >= 2;
 }
-// console.log(validateBuyerName);
+console.log(validateBuyerName("kevin"));
 
 // Step 3. Function: checkUserAuthorization
 function checkUserAuthorization(role) {
