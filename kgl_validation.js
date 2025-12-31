@@ -25,9 +25,8 @@ let managerName;
 
 /*  
   step 3: comment
-  Using let because closedBranches is explicitly 
-  set to null (no branches closed yet) but later
-  there can be some closed branches
+  Using let because closedBranches is intentionaly 
+  empty (no branches closed yet)
 */
 let closedBranches = null; 
 
